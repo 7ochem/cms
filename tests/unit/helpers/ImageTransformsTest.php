@@ -1,13 +1,14 @@
 <?php
 
-namespace helpers;
+namespace crafttests\unit\helpers;
 
+use Codeception\Test\Unit;
 use craft\errors\ImageTransformException;
 use craft\helpers\ArrayHelper;
 use craft\helpers\ImageTransforms;
 use craft\models\ImageTransform;
 
-class ImageTransformsHelperTest extends \Codeception\Test\Unit
+class ImageTransformsTest extends Unit
 {
     /**
      * @var \UnitTester
